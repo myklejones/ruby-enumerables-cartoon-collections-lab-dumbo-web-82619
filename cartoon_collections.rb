@@ -22,8 +22,6 @@ end
 
 def find_the_cheese(strings)
   strings.find do |cheese|
-  cheese=="cheddar"||cheese== "gouda"||cheese="camembert"
+  cheese =="cheddar"||cheese == "gouda"||cheese=="camembert"
 end
-  
-  
 end
