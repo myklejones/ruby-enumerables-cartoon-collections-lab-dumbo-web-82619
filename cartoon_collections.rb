@@ -14,9 +14,9 @@ end
 
 def long_planeteer_calls(calls)
   if calls.all?{|string|string >= 5}
-    return true 
+     true 
   else 
-    return false 
+     false 
   end
 end
 
