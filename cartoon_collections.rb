@@ -21,8 +21,9 @@ else
 end
 
 def find_the_cheese(strings)
-  dtrings.find 
-  cheese_types = ["cheddar", "gouda", "camembert"]
+  strings.find do |cheese|
+  cheese=="cheddar"||cheese== "gouda"||cheese="camembert"
+end
   
   
 end
