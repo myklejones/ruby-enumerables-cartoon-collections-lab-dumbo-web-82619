@@ -21,7 +21,8 @@ else
 end
 
 def find_the_cheese(strings)
+  dtrings.find 
   cheese_types = ["cheddar", "gouda", "camembert"]
-  strings.find_index(cheese_types)
+  
   
 end
