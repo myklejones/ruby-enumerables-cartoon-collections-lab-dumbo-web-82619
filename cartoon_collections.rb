@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls)
   if calls.all?{|string|string=< 5}
-    FALSE
+  
   
   
   
